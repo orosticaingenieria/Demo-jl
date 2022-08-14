@@ -1,3 +1,4 @@
 using Test
+using Demo
 
-@test true
+@test Demo.greet() === nothing
